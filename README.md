@@ -36,8 +36,8 @@ The same behavior was verified separately against the unchanged upstream source 
 ### Scope and status
 
 - Scope: `fetchWithRetry` cancellation and its backoff only. This does not demonstrate a failure of `Agent.generate`, model-provider retry paths, or asset-download cancellation.
-- Upstream issue: not submitted as of 2026-10-03.
-- Upstream fix/PR: none from this repository. Any follow-up requires maintainer approval under Mastra's contribution rules.
+- Upstream issue: not submitted from this repository (the reproduction is dated 2026-10-03).
+- Upstream fix: later shipped in [`@mastra/core@1.75.0`](https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.75.0) ([mastra#26164](https://github.com/mastra-ai/mastra/pull/26164)). This repository is a reproduction, not the upstream fix, and did not submit that pull request.
 - The reproduction and report were prepared with AI assistance; the commands were executed locally. The account owner should review the code and reproduce it before presenting it as work they understand.
 
 ## License
